@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+nav {
+  background-color: #a2dee4;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+#logo {
+  width: 40px;
+  height: auto;
+  margin: 5px;
+  padding: 0;
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+  text-align: right;
+  padding: 0px;
+  float: right;
+  margin: 14px;
+}
+
+li {
+  display: inline-block;
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  margin: 0px 4px 0px 4px;
+
+}
+
+header {
+  background-image: url('./images/dog-party-assets/park.jpg');
+  background-size: cover;
+  height: 500px;
+  margin: 0px;
+  padding: 0px;
+}
+
+article {
+  height: 300px;
+  margin:  100px, 0px, 0px, 0px;
+  padding: 0px, 0px, 0px, 0px;
+  text-align: center;
+
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  font-size: 24px;
+  margin-top: 0;
+  padding-top: 30px;
+}
+
+ body {
+  margin: 0px;
+ }
+
+ .dog {
+  width: 250px;
+  height: auto;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #498aa7;
+  border-width: 4px;
+  margin: 20px;
+ }
+
+ button {
+  border-radius: 0%;
+  border-style: solid;
+  border-color: #498aa7;
+  border-width: 3px;
+  padding: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  background-color: #ffffff;
+  color: #498aa7;
+  display: block;
+  margin: auto;
+ }
+
+ section article {
+  display: inline-block;
+  width: 33%;
+  height: auto;
+  margin: auto;
+  padding-top:  20px;
+  padding-right: 5px;
+  padding-left: 5px;
+
+ }
+
+ p {
+  font-family: 'Raleway', sans-serif;
+
+ }
+ footer {
+    height: 150px;
+    background-color: #498aa7;
+    text-align: center;
+ }
+
+footer p {
+  color: #ffffff;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+ footer img {
+  margin: auto;
+  padding: 20px;
+ }
